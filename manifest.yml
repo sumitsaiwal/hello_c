@@ -1,0 +1,6 @@
+---
+applications:
+- name: helloc
+  timeout: 300
+  memory: 256M
+  buildpack: https://github.com/sumitsaiwal/heroku-buildpack-c.git
